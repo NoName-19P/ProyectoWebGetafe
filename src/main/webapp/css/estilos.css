@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+/* Colores, tamaï¿½os y tipo de letra */
+a {
+	color: blue;
+	font-size: 12px;
+}
+
+body {
+	font-family: verdana;
+}
+
+caption {
+	color: #000;
+	font-size: 14px;
+}
+
+h1 {
+	color: #333;
+	font-size: 20px;
+}
+
+h2 {
+	color: #666;
+	font-size: 16px;
+}
+
+p, li, td {
+	color: #000;
+	font-size: 12px;
+}
+
+th {
+	color: white;
+	font-size: 12px;
+}
+
+ p.titulo {
+        font-family: Verdana;
+        font-size: 40px; /* tamaño grande */
+        font-weight: bold; /* negrita */
+    }
+
+/* Tabla */
+table, td, th {
+	border: 1px solid black;
+}
+
+table {
+	border-collapse: collapse;
+	text-align:left;
+}
+
+table
+
+td, th {
+	padding: 10px;
+}
+
+thead {
+	background: #666;
+}
+
+tfoot {
+	background: #ccc;
+}
