@@ -19,11 +19,10 @@ public class AlumnoService {
 		validarEdad(alumnoDTO.getEdad());
 	}
 
-	public void validarEmail(String email) throws Exception {
-		if (email == null || !email.contains("@")) {
-			throw new Exception("Email no valido");
-		}
+	public static boolean validarEmail(String email) {
+	    return email != null && email.matches("^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$");
 	}
+
 
 	public void validarEdad(Integer edad) throws Exception {
 		if (edad == null || edad < 0 || edad > 120) {
